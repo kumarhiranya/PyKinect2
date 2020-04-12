@@ -172,8 +172,8 @@ class BodyGameRuntime(object):
         self._kinect.close()
         pygame.quit()
 
-
-__main__ = "Kinect v2 Body Game"
-game = BodyGameRuntime();
-game.run();
+if __name__ == "__main__":
+    __main__ = "Kinect v2 Body Game"
+    game = BodyGameRuntime();
+    game.run();
 
